@@ -547,17 +547,17 @@ export default function Index() {
           alignItems: "center",
         }}
       >
-        <Animated.Text
+        // Trocado animated text por animated imagem
+        <Animated.Image
+          source={require("../assets/splashNovo.png")}
           style={{
-            fontSize: 28,
-            color: "#fff",
-            fontWeight: "bold",
+            width: 280,
+            height: 280,
             opacity: fadeAnim,
             transform: [{ scale: fadeAnim }],
           }}
-        >
-          FFC LotoTech25
-        </Animated.Text>
+          resizeMode="contain"
+        />
       </View>
     );
   }

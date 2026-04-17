@@ -2,12 +2,12 @@
   "expo": {
     "name": "ffc-lototech25d",
     "slug": "ffc-lototech25d",
-    "version": "1.0.0",
+    "version": "1.0.14",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/iconNovo.png",
     "scheme": "ffclototech25d",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+
     "ios": {
       "supportsTablet": true
     },
@@ -18,7 +18,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
+
       "predictiveBackGestureEnabled": false,
       "package": "com.fernandofc.ffclototech25"
     },
@@ -48,7 +48,8 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1a1e5797-619b-42c6-aac1-cb82d278da32"
+        // "projectId": "1a1e5797-619b-42c6-aac1-cb82d278da32" NOVO
+        "projectId": "6333d78a-92c5-4ac5-ae66-7d7936414bb6"
       }
     }
   }
