@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "ffc-lototech25d",
-    "slug": "ffc-lototech25d",
+    "name": "FFC LotoTech25",
+    "slug": "ffc-lototech25",
     "version": "1.0.14",
     "orientation": "portrait",
     "icon": "./assets/images/iconNovo.png",
-    "scheme": "ffclototech25d",
+    "scheme": "ffclototech25",
     "userInterfaceStyle": "automatic",
-
     "ios": {
       "supportsTablet": true
     },
@@ -18,13 +17,13 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-
       "predictiveBackGestureEnabled": false,
-      "package": "com.fernandofc.ffclototech25"
+      "package": "com.fernandofc.ffclototech25",
+      "versionCode": 14
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/faviconNovo.png"
     },
     "plugins": [
       "expo-router",
@@ -39,7 +38,9 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -48,7 +49,6 @@
     "extra": {
       "router": {},
       "eas": {
-        // "projectId": "1a1e5797-619b-42c6-aac1-cb82d278da32" NOVO
         "projectId": "6333d78a-92c5-4ac5-ae66-7d7936414bb6"
       }
     }

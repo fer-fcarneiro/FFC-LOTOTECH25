@@ -547,7 +547,6 @@ export default function Index() {
           alignItems: "center",
         }}
       >
-        // Trocado animated text por animated imagem
         <Animated.Image
           source={require("../assets/splashNovo.png")}
           style={{
