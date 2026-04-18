@@ -148,29 +148,37 @@ export default function Cadastro() {
 
         <TextInput
           placeholder="Senha"
+          placeholderTextColor="#999"
           value={senha}
           onChangeText={setSenha}
-          secureTextEntry
+          secureTextEntry={true}
           style={{
             borderWidth: 1,
             borderColor: "#ccc",
             padding: 12,
             borderRadius: 8,
             marginBottom: 15,
+            backgroundColor: "#fff",
+            color: "#000",
+            fontSize: 16,
           }}
         />
 
         <TextInput
           placeholder="Confirmar senha"
+          placeholderTextColor="#999"
           value={confirmarSenha}
           onChangeText={setConfirmarSenha}
-          secureTextEntry
+          secureTextEntry={true}
           style={{
             borderWidth: 1,
             borderColor: "#ccc",
             padding: 12,
             borderRadius: 8,
             marginBottom: 20,
+            backgroundColor: "#fff",
+            color: "#000",
+            fontSize: 16,
           }}
         />
 
