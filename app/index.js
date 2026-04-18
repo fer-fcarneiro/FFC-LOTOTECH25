@@ -764,8 +764,8 @@ export default function Index() {
       }
 
       Alert.alert(
-        "⭐ Plano PRO ANUAL",
-        "7 dias grátis\nDepois R$ 49,90/ano\n\nMenos de R$ 4,20 por mês.\nCancele quando quiser.",
+        "Plano PRO em fase de testes.",
+        "Recursos avançados disponíveis para usuários selecionados.",
 
         [
           { text: "Cancelar", style: "cancel" },
@@ -774,7 +774,7 @@ export default function Index() {
             onPress: async () => {
               try {
                 // 🔥 FUTURO: aqui entra Google Play Billing
-                console.log("👉 Iniciar compra do PRO");
+                console.log("👉 Solicitação PRO");
 
                 // 👉 TEMPORÁRIO (simulação)
                 await simularAtivacaoPro(userId);
@@ -885,7 +885,7 @@ export default function Index() {
 
         {/* 🔥 ATIVAR PRO */}
         {plano === "free" && (
-          <AppButton title="Desbloquear PRO" onPress={ativarPro} />
+          <AppButton title="Ativar recursos PRO" onPress={ativarPro} />
         )}
 
         {/* 🔐 LOGIN */}
