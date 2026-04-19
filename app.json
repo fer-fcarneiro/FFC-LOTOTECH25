@@ -2,7 +2,7 @@
   "expo": {
     "name": "FFC LotoTech25",
     "slug": "ffc-lototech25",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "orientation": "portrait",
     "icon": "./assets/images/iconNovo.png",
     "scheme": "ffclototech25",
@@ -12,13 +12,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#0a7ea4",
-        "foregroundImage": "./assets/images/iconNovo.png",
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/iconNovo2.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.ffc.lototech25",
-      "versionCode": 16
+      "versionCode": 17
     },
     "web": {
       "output": "static",

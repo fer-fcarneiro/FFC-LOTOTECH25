@@ -134,7 +134,8 @@ export default function Cadastro() {
         </Text>
 
         <TextInput
-          placeholder="Seu email"
+          placeholder="Digite seu email"
+          placeholderTextColor="#888"
           value={email}
           onChangeText={setEmail}
           style={{
